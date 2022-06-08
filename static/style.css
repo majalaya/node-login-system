@@ -1,0 +1,109 @@
+*{
+   box-sizing: border-box;
+   font-family: Arial, sans-serif;
+   margin: 0;  
+}
+
+body{
+   background-color: #eae8f2;
+   color: #555555;
+}
+
+label{
+   display: block;
+   font-size: 14px;
+   font-weight: bold;
+   margin-bottom: 5px;
+   margin-top: 20px;
+}
+
+h2.title{
+   margin-top: 10px;
+}
+
+.tip{
+   display: block;
+   font-size: small;
+   margin-bottom: 40px;
+}
+
+.errorMsg{
+   font-size: small;
+   background-color: #ff7979;
+   color:#ffffff;
+   border-radius: 5px;
+   padding:10px;
+   display: none;
+}
+
+.formContainer,
+.dashboardContainer
+{
+   background-color: #ffffff;
+   border: 10px solid rgba(84,35,172,0.2);
+   border-radius: 20px;
+   min-height: 550px;
+   margin: 100px auto;
+   padding: 20px;
+   width: 350px;   
+}
+.dashboardContainer{
+   width: 850px;
+}
+
+.link{
+   font-size: small;
+   margin-top: 30px;
+   text-align: center;
+   
+}
+
+a{
+   color: #5823b2;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+input[type=text],
+input[type=password]{
+   border: 1px solid #cccccc;
+   border-radius: 5px;
+   height: 40px;
+   padding: 0 10px;
+   outline-color: rgba(84,35,172,0.5);
+   width: 100%;
+}
+
+input[type=button]{
+   background-color: #5823b2;
+   border: none;
+   border-radius: 5px;
+   color: #ffffff;
+   height: 40px;
+   margin-top: 30px;
+   width: 100%;
+}
+input[type=button]:enabled{
+   cursor: pointer;
+}
+input[type=button]:disabled{
+   cursor:not-allowed;
+   opacity: 0.6;
+}
+
+input[type=button]:enabled:hover{
+   opacity: 0.8;
+}
+
+.avatar img{
+   width:100px;
+}
+
+.welcomeMessage{
+   margin-top: 20px;
+}
+
+.notes{
+   font-style: italic;
+   margin-bottom: 50px;
+}
