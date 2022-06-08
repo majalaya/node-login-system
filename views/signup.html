@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Signup Page</title>
+      <link rel="stylesheet" href="static/style.css">
+      <script src="static/jquery-3.6.0.min.js"></script>
+      <script src="static/frontend.js"></script>
+   </head>
+   <body>
+      <div class="formContainer">
+         <form autocomplete="off">
+            <h2 class="title">Sign up</h2>
+            <div class="tip">
+               Join to our community today
+            </div>
+            <div class="errorMsg">
+               error message will shown here
+            </div>
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <input type="button" id="signupBtn" value="SIGNUP">
+         </form>
+         <div class="link">
+            Already have an account? <a href="login">Login</a>
+         </div>
+      </div>
+   </body>
+</html>

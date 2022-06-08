@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Login Page</title>
+      <link rel="stylesheet" href="static/style.css">
+      <script src="static/jquery-3.6.0.min.js"></script>
+      <script src="static/frontend.js"></script>
+   </head>
+   <body>
+      <div class="formContainer">
+         <form autocomplete="off">
+            <h2 class="title">Login</h2>
+            <div class="tip">
+               Login to your account using email and password
+            </div>
+            <div class="errorMsg">
+               error message will shown here
+            </div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <input type="button" id="loginBtn" value="LOGIN">
+         </form>
+         <div class="link">
+            Don't have an account yet? <a href="signup">Sign up</a>
+         </div>
+      </div>
+   </body>
+</html>
