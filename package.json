@@ -1,0 +1,13 @@
+{
+  "name": "node-login-system",
+  "version": "1.0.0",
+  "description": "Nodejs simple login system",
+  "scripts": {},
+  "author": "Devisty",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-es6-template-engine": "^2.2.3",
+    "express-session": "^1.17.3",
+    "mysqli": "^3.1.4"
+  }
+}
